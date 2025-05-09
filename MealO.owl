@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/MealO#"
+     xml:base="http://www.semanticweb.org/ontologies/MealO"
+     xmlns:MealO="http://www.semanticweb.org/ontologies/MealO#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Free="http://www.semanticweb.org/ontologies/MealO#Dairy Free ">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/MealO"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#ObjectProperty1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1">
+        <rdfs:label>has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#ObjectProperty2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/MealO#ObjectProperty2">
+        <rdfs:label>plays role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#ObjectProperty3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/MealO#ObjectProperty3">
+        <rdfs:label>is constrained by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#ObjectProperty4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/MealO#ObjectProperty4">
+        <rdfs:label>is output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class0">
+        <rdfs:label>Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+        <rdfs:isDefinedBy>A diet is a set of rules or principles that constrain what foods are eaten</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class1">
+        <rdfs:label>French Cuisine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class10">
+        <rdfs:label>Tea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class11">
+        <rdfs:label>Snack</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class12">
+        <rdfs:label>Side Dish</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+        <rdfs:isDefinedBy>A dish that is supplementary to the main dish in a course</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class13">
+        <rdfs:label>Amuse-Bouche</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class14">
+        <rdfs:label>Casserole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class15">
+        <rdfs:label>Stew</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class16">
+        <rdfs:label>Course</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A course is part of a meal in which one or more dishes are served at the same time</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class17">
+        <rdfs:label>Starter</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class24"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class34"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class18">
+        <rdfs:label>Dessert</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class22"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class19">
+        <rdfs:label>Soup</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class2">
+        <rdfs:label>Meal Role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class20">
+        <rdfs:label>Sweet Course</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class21">
+        <rdfs:label>Savoury Course</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class22">
+        <rdfs:label>Pudding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class23">
+        <rdfs:label>Entrez</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class24">
+        <rdfs:label>Appetiser</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class25">
+        <rdfs:label>Dish</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty3"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty4"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class54"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A dish is an item of food that consists of one or more ingredients that are either fresh or cooked and are prepared according to a implicit or explicit recipe. A dish may be either distributed to the plate or other eating receptacle at meal time or just prior to eating time.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class26">
+        <rdfs:label>Cake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class27">
+        <rdfs:label>Biscuit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class28">
+        <rdfs:label>Salad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class29">
+        <rdfs:label>Anti Pasti</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class3">
+        <rdfs:label>Main Course</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class30">
+        <rdfs:label>Primi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class31">
+        <rdfs:label>Secundi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class32">
+        <rdfs:label>Cuisine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+        <rdfs:isDefinedBy>A style of cooking often characteristic of a country, region or establishment</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class33">
+        <rdfs:label>Sandwich</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class34">
+        <rdfs:label>Hors D%173Oeuvre</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class35">
+        <rdfs:label>Bake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class36">
+        <rdfs:label>Cheese Course</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class37">
+        <rdfs:label>Meal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A meal is  a means by which food is consumed and consists of one or more courses</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class38">
+        <rdfs:label>Domain Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class39 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class39">
+        <rdfs:label>German Cuisine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class4">
+        <rdfs:label>Breakfast</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class40">
+        <rdfs:label>Italian Cuisine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class41">
+        <rdfs:label>Nigerian Cuisine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class42">
+        <rdfs:label>Main Dish</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+        <rdfs:isDefinedBy>A dish that is the focus or main feature of a course</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class43">
+        <rdfs:label>thai Cuisine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class44 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class44">
+        <rdfs:label>PESCETARIAN Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class45 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class45">
+        <rdfs:label>gluten Free Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class46 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class46">
+        <rdfs:label>PALEOLITHIC Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class47 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class47">
+        <rdfs:label>ketogenic Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class48 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class48">
+        <rdfs:label>Lacto ovo Vegetarian Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class49">
+        <rdfs:label>Vegan Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class5">
+        <rdfs:label>Supper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class50 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class50">
+        <rdfs:label>Low FODMAP Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class51 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class51">
+        <rdfs:label>halal Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class52 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class52">
+        <rdfs:label>Kosher Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class53">
+        <rdfs:label>Low Calorie Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class54 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class54">
+        <rdfs:label>Recipe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class38"/>
+        <rdfs:isDefinedBy>A set of ingredients and a list of instructions that results in a dish being prepared</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class55">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One Course Meal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/MealO#Class37"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class56 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class56">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one Dish Meal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/MealO#Class37"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class25"/>
+                                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class57 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class57">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi Course Meal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/MealO#Class37"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class58 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class58">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three Course Meal</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/MealO#Class37"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/MealO#ObjectProperty1"/>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class16"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class6">
+        <rdfs:label>Luncheon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class65">
+        <rdfs:label>Dairy Free Diet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class7">
+        <rdfs:label>Brunch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class8">
+        <rdfs:label>Elevenses</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/MealO#Class9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/MealO#Class9">
+        <rdfs:label>Dinner</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/MealO#Class2"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1787) http://owlapi.sourceforge.net -->
+
